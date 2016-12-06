@@ -43,7 +43,7 @@ public class TestController {
 
 	@RequestMapping(value = "/1")
 	@ResponseBody
-	public String test() {
+	public String test() {//lollol
 		
 		String s="";
 		ArrayList<LecturerDetails> l = lds.findAllLecturers();
